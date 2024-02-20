@@ -33,7 +33,7 @@ source ~/.zsh/plugins/zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-
 
 # OhMyPosh Config
 # eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/iterm2.omp.json)"
-eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/catppuccin.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/material.omp.json)"
 
 zstyle :compinstall filename '/home/kenglordpanda/.zshrc'
 
