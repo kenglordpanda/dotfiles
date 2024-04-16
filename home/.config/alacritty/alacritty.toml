@@ -1,4 +1,4 @@
-import = ["~/dotfiles/.config/alacritty/themes/rose-pine.toml"]
+import = ["~/dotfiles/home/.config/alacritty/themes/dracula.toml"]
 
 [window]
 decorations = "Full"
