@@ -1,9 +1,10 @@
-import = ["~/dotfiles/home/.config/alacritty/themes/dracula.toml"]
+import = ["~/dotfiles/home/.config/alacritty/themes/onedark.toml"]
 
 [window]
 decorations = "Full"
 startup_mode = "Maximized"
-dynamic_title = false
+dynamic_title = true
+opacity = 0.75
 
 
 [font]
