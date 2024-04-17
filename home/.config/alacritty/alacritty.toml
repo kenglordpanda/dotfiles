@@ -4,7 +4,7 @@ import = ["~/dotfiles/home/.config/alacritty/themes/onedark.toml"]
 decorations = "Full"
 startup_mode = "Maximized"
 dynamic_title = true
-opacity = 0.75
+opacity = 0.60
 
 
 [font]
