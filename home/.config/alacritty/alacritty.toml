@@ -3,7 +3,7 @@ import = ["~/dotfiles/home/.config/alacritty/themes/onedark.toml"]
 [window]
 decorations = "Full"
 startup_mode = "Maximized"
-dynamic_title = true
+dynamic_title = false
 opacity = 0.60
 
 

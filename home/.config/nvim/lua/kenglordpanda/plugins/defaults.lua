@@ -37,4 +37,11 @@ return {
 	{
 		"onsails/lspkind.nvim",
 	},
+
+	{
+		"elkowar/yuck.vim",
+	},
+	{
+		"gpanders/nvim-parinfer",
+	},
 }
