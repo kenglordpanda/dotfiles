@@ -47,7 +47,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias vim=nvim
-alias rm="rm -rf"
 
 # bun completions
 [ -s "/home/kenglordpanda/.bun/_bun" ] && source "/home/kenglordpanda/.bun/_bun"
@@ -55,3 +54,4 @@ alias rm="rm -rf"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export GRIM_DEFAULT_DIR=~/Pictures/Screenshots/
