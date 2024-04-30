@@ -1,6 +1,9 @@
-[DP-3]
-path = "/home/kenglordpanda/dotfiles/wallpapers/"
-duration = "60m"
-[DP-4]
+# [DP-3]
+# path = "/home/kenglordpanda/dotfiles/wallpapers/"
+# duration = "60m"
+# [DP-4]
+# path = "/home/kenglordpanda/dotfiles/wallpapers/"
+# duration = "60m"
+[eDP-1]
 path = "/home/kenglordpanda/dotfiles/wallpapers/"
 duration = "60m"
