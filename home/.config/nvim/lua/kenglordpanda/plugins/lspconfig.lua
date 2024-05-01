@@ -17,7 +17,6 @@ return {
 					python = { "isort", "black" },
 					cpp = { "clang-format" },
 					markdown = { "markdownlint" },
-					csharp = { "csharpier" },
 					javascript = { "prettierd" },
 					typescript = { "prettierd " },
 					html = { "prettierd" },
