@@ -21,12 +21,9 @@
   "mason.nvim": { "branch": "main", "commit": "3b5068f0fc565f337d67a2d315d935f574848ee7" },
   "neoscroll.nvim": { "branch": "master", "commit": "6e3546751076890304428150e53bd59198a4505d" },
   "nvim-autopairs": { "branch": "master", "commit": "c6139ca0d5ad7af129ea6c89cb4c56093f2c034a" },
-  "nvim-bqf": { "branch": "main", "commit": "b51a37fcd808edafd52511458467c8c9a701ea8d" },
   "nvim-cmp": { "branch": "main", "commit": "04e0ca376d6abdbfc8b52180f8ea236cbfddf782" },
   "nvim-lint": { "branch": "master", "commit": "e824adb9bc01647f71e55457353a68f0f37f9931" },
   "nvim-lspconfig": { "branch": "master", "commit": "9ad7021267c6caeb01f839c91ad8f15fb608807e" },
-  "nvim-parinfer": { "branch": "master", "commit": "5ca09287ab3f4144f78ff7977fabc27466f71044" },
-  "nvim-pqf": { "branch": "main", "commit": "ba0e291cb5c0249838132e197dac082777bdc7d6" },
   "nvim-surround": { "branch": "main", "commit": "d47001f8ddf9646c24f16d2732d4d0255acd2121" },
   "nvim-treesitter": { "branch": "master", "commit": "cc6b108ea1251bd361f091b7d5a0dd41c04f8611" },
   "nvim-treesitter-textobjects": { "branch": "master", "commit": "b7a0bfa3e93697ca5b61b15df633404bf8f45883" },
@@ -39,6 +36,5 @@
   "project.nvim": { "branch": "main", "commit": "8c6bad7d22eef1b71144b401c9f74ed01526a4fb" },
   "telescope.nvim": { "branch": "master", "commit": "7011eaae0ac1afe036e30c95cf80200b8dc3f21a" },
   "vim-repeat": { "branch": "master", "commit": "24afe922e6a05891756ecf331f39a1f6743d3d5a" },
-  "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" },
-  "yuck.vim": { "branch": "master", "commit": "9b5e0370f70cc30383e1dabd6c215475915fe5c3" }
+  "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }
 }
