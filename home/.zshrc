@@ -28,12 +28,8 @@ bindkey -v
 bindkey -s jk '\e'
 
 # Load non oh-my-zsh plugins
-source ~/.zsh/plugins/zsh-smartinput/smartinput.plugin.zsh
-source ~/.zsh/plugins/zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
-
-# OhMyPosh Config
-# eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/iterm2.omp.json)"
-eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/material.omp.json)"
+source ~/.oh-my-zsh/custom/plugins/zsh-smartinput/smartinput.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
 
 zstyle :compinstall filename '/home/kenglordpanda/.zshrc'
 
