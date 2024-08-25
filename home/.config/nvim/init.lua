@@ -26,7 +26,7 @@ else
 	})
 	vim.keymap.set("n", "<Leader>la", ":Lazy<CR>", { desc = "Open Lazy Manager" })
 	require("kenglordpanda.lsp")
-	vim.cmd("colorscheme onedark")
+	vim.cmd("colorscheme tokyonight-night")
 	vim.cmd("set hidden")
 	vim.cmd("set clipboard=unnamedplus")
 	vim.cmd("set clipboard+=unnamed")

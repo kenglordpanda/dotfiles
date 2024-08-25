@@ -8,12 +8,10 @@ require("mason-lspconfig").setup({
 		"clangd",
 		"cssls",
 		"eslint",
-		"volar",
-		"taplo",
 	},
 })
 local lspconfig = require("lspconfig")
-local lsps = { "lua_ls", "pyright", "marksman", "html", "clangd", "cssls", "eslint", "volar", "taplo" }
+local lsps = { "lua_ls", "pyright", "marksman", "html", "clangd", "cssls", "eslint"}
 for _, lsp in ipairs(lsps) do
 	lspconfig[lsp].setup({
 		on_attach = on_attach,

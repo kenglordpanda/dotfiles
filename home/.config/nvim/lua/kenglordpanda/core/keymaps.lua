@@ -18,7 +18,7 @@ vim.keymap.set("n", "<Leader>bw", ":bw<CR>", { desc = "Wipeout Buffer", noremap 
 vim.keymap.set("n", "<Leader>bW", ":bw!<CR>", { desc = "Wipeout Buffer for Sure", noremap = true, silent = true })
 
 -- i really hate a being, conflicts with aerial, remove if i start liking it again
-vim.keymap.set("n", "<Leader>i", "a", { noremap = true, silent = true, desc = { "Insert After" } })
+vim.keymap.set("n", "<Leader>i", "a", { noremap = true, silent = true, desc =  "Insert After"  })
 vim.keymap.set("n", "a", "<Nop>", { noremap = true, silent = true })
 
 vim.keymap.set("n", "<Leader>ll", ":lopen<CR>", { desc = "Open Location List", noremap = true, silent = true })
