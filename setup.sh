@@ -1,3 +1,3 @@
 #!/bin/bash
-cp -rsf "$dotfiles_home"/. ~
+cp -rsf "$HOME/dotfiles/home"/. ~
 
