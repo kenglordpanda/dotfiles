@@ -6,18 +6,42 @@ return {
 			local configs = require("nvim-treesitter.configs")
 
 			configs.setup({
-				ensure_installed = { "c", "lua", "cpp", "go", "python", "c_sharp" },
+				ensure_installed = {
+					"c",
+					"lua",
+					"cpp",
+					"go",
+					"python",
+					"c_sharp",
+					"typescript",
+					"tsx",
+					"html",
+					"css",
+					"javascript",
+				},
 				sync_install = false,
-				highlight = { enable = true },
+				highlight = { enable = true, disable = { "latex" } },
 				indent = { enable = true },
 				additional_vim_regex_highlighting = false,
-				autotag = { enable = true },
 			})
 		end,
 	},
 	{
 		"windwp/nvim-ts-autotag",
 		dependencies = { "nvim-treesitter/nvim-treesitter" },
+		config = function()
+			require("nvim-ts-autotag").setup({
+				opts = {
+					-- Defaults
+					enable_close = true, -- Auto close tags
+					enable_rename = true, -- Auto rename pairs of tags
+					enable_close_on_slash = false, -- Auto close on trailing </
+				},
+				aliases = {
+					["typescript"] = "typescriptreact",
+				},
+			})
+		end,
 	},
 	{
 		"nvim-treesitter/nvim-treesitter-textobjects",

@@ -30,4 +30,12 @@ else
 	vim.cmd("set hidden")
 	vim.cmd("set clipboard=unnamedplus")
 	vim.cmd("set clipboard+=unnamed")
+	vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+		pattern = "*.ts",
+		callback = function()
+			if vim.bo.filetype == "typescript" then
+				vim.bo.filetype = "typescriptreact"
+			end
+		end,
+	})
 end
