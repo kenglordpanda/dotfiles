@@ -9,5 +9,5 @@ opacity = 0.60
 
 [font]
 size = 16.0
-normal = { family = "IosevkaTermSlab Nerd Font Mono"}
-italic = { style = "Light Italic" }
+normal = { family = "MonoLisa Patched"}
+italic = { style = "Medium Italic" }

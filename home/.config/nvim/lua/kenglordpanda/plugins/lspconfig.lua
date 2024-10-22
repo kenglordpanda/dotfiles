@@ -21,6 +21,7 @@ return {
 					typescript = { "prettierd " },
 					html = { "prettierd" },
 					css = { "prettierd" },
+					scss = { "prettierd" },
 					latex = { "bibtex-tidy", "latexindent" },
 				},
 				format_on_save = {
@@ -42,7 +43,9 @@ return {
 				javascript = { "eslint_d" },
 				typescript = { "eslint_d" },
 				css = { "stylelint" },
+				scss = { "stylelint" },
 				latex = { "vale" },
+				html = { "htmlhint" },
 			}
 			vim.api.nvim_create_autocmd({ "BufWritePost" }, {
 				callback = function()

@@ -9,10 +9,12 @@ require("mason-lspconfig").setup({
 		"cssls",
 		"texlab",
 		"ts_ls",
+		"astro",
+		"tailwindcss",
 	},
 })
 local lspconfig = require("lspconfig")
-local lsps = { "lua_ls", "pyright", "marksman", "html", "clangd", "cssls", "texlab", "ts_ls" }
+local lsps = { "lua_ls", "pyright", "marksman", "html", "clangd", "texlab", "ts_ls", "astro", "tailwindcss", "cssls" }
 for _, lsp in ipairs(lsps) do
 	lspconfig[lsp].setup({
 		on_attach = on_attach,
